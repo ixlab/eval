@@ -1,4 +1,5 @@
-# Evaluating Interactive Data Systems: Workloads, Metrics, and Guidelines
+# Evaluating Interactive Data Systems: Workloads, Metrics, and Guidelines <img align="right" width="200" src="https://github.com/ixlab/eval/raw/master/paper.png">
+
 Lilong Jiang, Protiva Rahman, Arnab Nandi
 
 Tutorial presented at SIGMOD 2018 [[pdf link]](https://github.com/ixlab/eval/blob/master/paper.pdf)
