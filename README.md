@@ -24,7 +24,7 @@ In this paper, we describe unique characteristics of interactive workloads for a
 ```
 
 ## Metrics Survey & Other Related Papers
-130+ papers on data interaction [[.bib file link]](https://github.com/ixlab/eval/blob/master/main.bib)
+130+ papers on data interaction [[.bib file link]](https://github.com/ixlab/eval/blob/master/paper.bib)
 
 ### Query interface
   * Usability: 
