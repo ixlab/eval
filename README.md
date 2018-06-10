@@ -1,4 +1,4 @@
-# Evaluating Interactive Data Systems: Workloads, Metrics, and Guidelines <img align="right" width="200" src="https://github.com/ixlab/eval/raw/master/paper.png">
+# Evaluating Interactive Data Systems: Workloads, Metrics, and Guidelines <img align="right" width="200" src="https://github.com/ixlab/eval/raw/master/img/paper.png">
 
 Lilong Jiang, Protiva Rahman, Arnab Nandi
 
@@ -45,6 +45,9 @@ The human-centric nature also means these systems require usability testing, to 
 ## Metrics Survey & Other Related Papers
 130+ papers on data interaction [[.bib file link]](https://github.com/ixlab/eval/blob/master/paper.bib)
 
+<img align="right" width="200" src="https://github.com/ixlab/eval/raw/master/img/table.png">
+
+<details><summary>LaTeX `\cite{}` version</summary>
 ### Query interface
   * Usability: 
     ```Proxied by query specification or task completion time~\cite{jagadish2007making,nandi2013gestural, yang2007analysis, kandel2011wrangler, javed2012gravnav, abouzied2012dataplay, zhang2012network, satyanarayan2014lyra, basole2013understanding, yang2011clues, dimitriadou2014explore, igarashi2000speed, singh2012skimmer, bakke2011spreadsheet, liu2009spreadsheet},  number of iterations, navigation cost~\cite{li2007nalix, basu2008minimum, kashyap2010facetor, kashyap2011effective}, miss times~\cite{jiang2015snaptoquery}, number and uniqueness of insights~\cite{rzeszotarski2014kinetica, faith2007targeted, willett2007scented, singh2012skimmer}, accuracy \cite{rahman2017ve,siddiqui2016effortless}, ability to complete tasks~\cite{yang2007analysis, key2012vizdeck, basole2013understanding, cao2011dicon, yang2011clues, heer2008generalized, singh2012skimmer, liu2009spreadsheet}```
@@ -74,13 +77,15 @@ The human-centric nature also means these systems require usability testing, to 
 * Cache hit rate:
     ```\cite{battle2015dynamic, kamat2014distributed, tauheed2012scout}```
 
+</details>
+
 ## New Metrics 
 * **Latency Constraint Violation (LCV)**: A key metric which we find missing in prior work is perceived latency violations. Latency is a common metric used for measuring user wait times. However, in an interactive system, many queries are not issued in isolation: it can be dependent on the result of another query, causing cascading failures. Alternatively any latency introduced can break a user's "flow'' -- the user's experience diminishes if they perceive any latency at all. Hence, the goal for all systems should be zero perceivable latency. In order to capture this stricter notion, we introduce *latency constraint violation*. Specifically, this metric counts the number of times the zero latency rule is violated. LCV captures cases when the latency is within interactive bounds, but the user percieves a delay due to the dependencies.
 <p align="center">
-<img width="500" src="https://github.com/ixlab/eval/raw/master/latencyConstraint.png">
+<img width="500" src="https://github.com/ixlab/eval/raw/master/img/latencyConstraint.png">
 </p>
 
 * **Query Issuing Frequency (QIF)**: The high frame rate of interactive devices motivates the need to reduce the workload to the database. To capture this, we introduce *query issuing frequency* - a metric that measures the number of queries issued in a given time interval. There is a need for the QIF of the frontend to match the performance of the backend, otherwise the user experience is diminished.
 <p align="center">
-<img width="500" src="https://github.com/ixlab/eval/raw/master/qif_quad.png">
+<img width="500" src="https://github.com/ixlab/eval/raw/master/img/qif_quad.png">
 </p>
