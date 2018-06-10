@@ -48,8 +48,9 @@ The human-centric nature also means these systems require usability testing, to 
 <img align="right" width="100%" src="https://github.com/ixlab/eval/raw/master/img/table.png">
 
 <details><summary>LaTeX \cite{} version (click here to expand)</summary>
+
 ### Query interface
-  * Usability: 
+* Usability: 
     ```Proxied by query specification or task completion time~\cite{jagadish2007making,nandi2013gestural, yang2007analysis, kandel2011wrangler, javed2012gravnav, abouzied2012dataplay, zhang2012network, satyanarayan2014lyra, basole2013understanding, yang2011clues, dimitriadou2014explore, igarashi2000speed, singh2012skimmer, bakke2011spreadsheet, liu2009spreadsheet},  number of iterations, navigation cost~\cite{li2007nalix, basu2008minimum, kashyap2010facetor, kashyap2011effective}, miss times~\cite{jiang2015snaptoquery}, number and uniqueness of insights~\cite{rzeszotarski2014kinetica, faith2007targeted, willett2007scented, singh2012skimmer}, accuracy \cite{rahman2017ve,siddiqui2016effortless}, ability to complete tasks~\cite{yang2007analysis, key2012vizdeck, basole2013understanding, cao2011dicon, yang2011clues, heer2008generalized, singh2012skimmer, liu2009spreadsheet}```
 
 * Learnability: 
