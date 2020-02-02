@@ -2,7 +2,8 @@
 
 Lilong Jiang, Protiva Rahman, Arnab Nandi
 
-Tutorial presented at SIGMOD 2018 [[pdf link]](https://github.com/ixlab/eval/blob/master/paper.pdf)
+- Tutorial presented at SIGMOD 2018 [[pdf link]](https://github.com/ixlab/eval/blob/master/paper.pdf)
+- Extended journal paper published in VLDB Journal 2020 [[pdf link]](https://github.com/ixlab/eval/blob/master/Evaluating%20Interactive%20Data%20Systems%20-%20VLDB%20Journal%20Extended%20Version.pdf)
 
 
 ## Abstract
