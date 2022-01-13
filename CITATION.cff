@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this paper, benchmarks, or software, please cite it as below."
+title: "Evaluating Interactive Data Systems: Workloads, Metrics, and Guidelines"
+authors:
+- family-names: "Jiang"
+  given-names: "Lilong"
+- family-names: "Rahman"
+  given-names: "Protiva"
+- family-names: "Nandi"
+  given-names: "Arnab"
+preferred-citation:
+  type: proceedings
+  authors:
+  - family-names: "Jiang"
+    given-names: "Lilong"
+  - family-names: "Rahman"
+    given-names: "Protiva"
+  - family-names: "Nandi"
+    given-names: "Arnab"
+  doi: 10.1145/3183713.3197386
+  proceedings: "Proceedings of the 2018 International Conference on Management of Data"
+  start: 1637
+  end: 1644
+  title: "Evaluating Interactive Data Systems: Workloads, Metrics, and Guidelines"
+  year: 2018
+version: 1.0
+url: "https://github.com/ixlab/eval"
