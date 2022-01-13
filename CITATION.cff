@@ -9,7 +9,7 @@ authors:
 - family-names: "Nandi"
   given-names: "Arnab"
 preferred-citation:
-  type: proceedings
+  type: conference-paper
   authors:
   - family-names: "Jiang"
     given-names: "Lilong"
