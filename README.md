@@ -24,6 +24,8 @@ In this paper, we describe unique characteristics of interactive workloads for a
 }
 ```
 
+<img width="1029" alt="image" src="https://user-images.githubusercontent.com/421604/198319903-3b1fc541-33c2-4469-924c-8add847767c6.png">
+
 ### Challenges in Evaluating Interactive Systems
 There are two aspects to evaluating interactive systems: Performance and Usability.   
 
