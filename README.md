@@ -1,4 +1,4 @@
-# Evaluating Interactive Data Systems: Workloads, Metrics, and Guidelines <img align="right" width="200" src="https://github.com/ixlab/eval/raw/master/img/paper.png">
+# Evaluating Interactive Data Systems: Workloads, Metrics, and Guidelines <img align="right" width="150" src="https://github.com/ixlab/eval/raw/master/img/paper.png">
 
 Lilong Jiang, Protiva Rahman, Arnab Nandi
 
